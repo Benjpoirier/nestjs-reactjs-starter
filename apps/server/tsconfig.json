@@ -1,0 +1,10 @@
+{
+  "extends": "../../tsconfig.json",
+  "compilerOptions": {
+    "types": [
+      "node",
+    ],
+    "target": "es2017",
+    "allowJs": false
+  }
+}

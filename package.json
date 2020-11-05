@@ -1,0 +1,29 @@
+{
+  "name": "nest-react-starter",
+  "version": "0.0.1",
+  "description": "",
+  "author": "Benjamin Poirier",
+  "private": true,
+  "license": "UNLICENSED",
+  "scripts": {
+    "start": "TZ=UTC mono-run start:dev --stream 500 --ui row",
+    "bootstrap": "lerna bootstrap",
+    "clean": "lerna clean --yes"
+  },
+  "devDependencies": {
+    "@types/node": "^14.14.6",
+    "eslint": "^7.12.1",
+    "eslint-config-prettier": "^6.15.0",
+    "eslint-plugin-prettier": "^3.1.4",
+    "eslint-plugin-sonarjs": "^0.5.0",
+    "eslint-plugin-react": "^7.21.5",
+    "eslint-plugin-react-hooks": "^4.2.0",
+    "lerna": "^3.22.1",
+    "monorepo-run": "^0.4.2",
+    "prettier": "^2.1.2",
+    "typescript": "^3.7.4"
+  },
+  "workspaces": [
+    "apps/*"
+  ]
+}
